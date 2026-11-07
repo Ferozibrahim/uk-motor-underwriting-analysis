@@ -41,7 +41,7 @@ In UK personal lines motor insurance, insurers must monitor whether the premiums
 ---
 
 ## Findings & Takeaways
-![UK Motor Loss Ratio by Age Band](loss_ratio_by_age.png)
+
 
 
 
