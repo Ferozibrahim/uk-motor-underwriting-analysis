@@ -42,7 +42,7 @@ In UK personal lines motor insurance, insurers must monitor whether the premiums
 
 ## Findings & Takeaways
 
-
+![UK Motor Loss Ratio by Age Band](loss_ratio_by_age.png)
 
 
 * **18–25 Age Band:** Ran the highest loss ratio, hovering near or past the 100% breakeven mark due to more frequent claims.
