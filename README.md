@@ -16,12 +16,12 @@ In UK personal lines motor insurance, insurers must monitor whether the premiums
 
 ---
 
-## Key Formula/Variables
+## Key Formulas/Variables
 
 * **Earned Exposure:** Total number of policy units covered across the period (1,000 car-years).
 * **Claim Frequency:** Rate of claim occurrence per policy (`Total Claims / Total Policies`).
 * **Average Severity:** Mean financial payout per settled claim (`Total Incurred Claims (£) / Total Claims`).
-* **Loss Ratio:** Core underwriting profitability metric (`[Total Incurred Claims (£) / Total Earned Premium (£)] × 100%`).
+* **Loss Ratio:** Core underwriting profitability metric (`[Total Incurred Claims (£) / Total Earned Premium (£)] × 100(%)`).
   
 ---
 
@@ -42,16 +42,19 @@ In UK personal lines motor insurance, insurers must monitor whether the premiums
 
 ## Findings & Takeaways
 
-![UK Motor Loss Ratio by Age Band](loss_ratio_by_age.png)
+![UK Motor Loss Ratio by Driver Age Band](loss_ratio_by_age.png)
 
-
-* **18–25 Age Band:** Ran the highest loss ratio, hovering near or past the 100% breakeven mark due to more frequent claims.
-* **41–65 Age Band:** The most profitable group (loss ratios consistently under 70%), which offsets the losses from younger drivers.
-* **Next Steps:** To bring the 18–25 segment below breakeven, pricing teams would typically increase base premiums, raise the compulsory excess, or add telematics requirements.
+* **18–25 Cohort:** Generated an underwriting loss with a loss ratio around 115%, crossing the 100% breakeven line due to higher claim frequency and severe impact costs.
+* **26–65 Cohorts:** Maintained profitable loss ratios between 25% and 30%, providing the underwriting margin that absorbs losses from the younger segment.
+* **66+ Cohort:** Showed a modest uptick in loss ratio to roughly 35%, reflecting higher claim frequency despite lower average severity.
+* **Underwriting Action:** Managing the 18–25 segment requires targeted interventions rather than flat price hikes: introducing telematics (black box policies) and raising compulsory excesses.
 
 ---
 
 ## Repository Structure
-├── README.md                      # Project and actuarial documentation
-├── uk_motor_analysis.R            # Data generation, cohort analysis, and plotting script
-└── loss_ratio_by_age.png          # Exported underwriting chart
+
+```text
+├── README.md              # Project documentation
+├── uk_motor_analysis.R    # Data generation, cohort analysis, and plotting script
+└── loss_ratio_by_age.png  # Exported chart
+```
